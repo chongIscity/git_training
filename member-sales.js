@@ -3,6 +3,7 @@ var form_prepaid = $('#prepaid-code-invoice');
 var error = $('.alert-danger', form);
 var success = $('.alert-success', form);
 var updateDocTimer;
+var sdfsdfsdfsdfsdf;
 
 $.validator.addMethod("valueNotEquals", function (value, element, arg) {
     return arg != value;
